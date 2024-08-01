@@ -1,0 +1,26 @@
+{
+  "name": "fastify-sqlite-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "bcrypt": "^5.1.1",
+    "fastify": "^4.28.1",
+    "fastify-sqlite": "^1.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pino": "^9.2.0",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "pino-pretty": "^11.2.1"
+  }
+}
